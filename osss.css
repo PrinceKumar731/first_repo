@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.container{
+    width: 100vw;
+    border: 10px solid;
+    background-color: grey;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    padding: 1rem;
+    height: 100vh;
+    justify-content: center;
+    align-items: flex-end;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    min-width: 50px;
+}
+
+#box1{
+    background-color: black;
+}
+
+#box2{
+    background-color: rgb(79, 77, 77);
+}
+#box3{
+    background-color:rgb(189, 187, 187);
+}
+#box4{
+    background-color:rgb(240, 238, 238);
+}
+
